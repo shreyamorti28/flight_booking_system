@@ -70,8 +70,8 @@ function App() {
                 <input name="name" placeholder="Name" value={formData.name} onChange={handleChange} required />
                 <input name="from" placeholder="From" value={formData.from} onChange={handleChange} required />
                 <input name="to" placeholder="To" value={formData.to} onChange={handleChange} required />
-                <input name="departureDate" type="date" placeholder="Departure Date" value={formData.departureDate} onChange={handleChange} required />
-                <input name="arrivalDate" type="date" placeholder="Arrival Date" value={formData.arrivalDate} onChange={handleChange} required />
+                <input name="departureDate" placeholder="Departure Date" value={formData.departureDate} onChange={handleChange} required />
+                <input name="arrivalDate" placeholder="Arrival Date" value={formData.arrivalDate} onChange={handleChange} required />
                 <input name="phone" placeholder="Phone" value={formData.phone} onChange={handleChange} required />
                 <input name="email" placeholder="Email" value={formData.email} onChange={handleChange} required />
                 <button type="submit">{editingPhone ? 'Update' : 'Add'} Passenger</button>

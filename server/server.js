@@ -11,7 +11,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 // MongoDB connection
-mongoose.connect('mongodb+srv://shreya:pass@cluster0.27dzl.mongodb.net', { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect('mongodb+srv://shreya:pass@cluster0.otan9.mongodb.net/', { useNewUrlParser: true, useUnifiedTopology: true })
     .then(() => console.log('MongoDB connected'))
     .catch(err => console.log(err));
 
